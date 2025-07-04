@@ -23,3 +23,23 @@ Styled Cards: Each card includes an image, title, short description, and a "Read
 Sticky Sidebar: The sidebar remains visible on the screen as the user scrolls through the posts on larger devices.
 Pagination: A standard pagination component to navigate between pages of blog posts.
 Footer with Icons: A clean footer with copyright information and social media links using Font Awesome icons.
+
+### Push to github
+step1: Type this command in terminal / git init
+
+Step2 :Create Repository on GitHub (manually) Go to https://github.com
+
+Click New repository
+
+Give it a name and click Create repository
+
+Copy the remote URL (like https://github.com/username/repo-name.git)
+
+Step3: git remote add origin https://github.com/username/repo-name.git note - replace our repository url
+
+Step4: git add . git commit -m "Initial commit"
+
+Step 5: git branch -M main git push -u origin main
+
+### To Run the project
+Save your html and css file -- click on live server if it works or --go to run> start debugging > webchrome
